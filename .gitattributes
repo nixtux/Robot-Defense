@@ -1,0 +1,8 @@
+*.fbi text
+*.tdf text
+*.lua text
+*.bos text
+*.txt text
+*.cfg text
+* -text
+modinfo.lua ident
