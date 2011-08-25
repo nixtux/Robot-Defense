@@ -15,7 +15,7 @@ unitDef = {
   canPatrol           = true,
   canstop             = "1",
   cantBeTransported   = true,
-  category            = "MOBILE WEAPON NOTAIR NOTSUB NOTSHIP ALL",
+  category            = "MOBILE WEAPON NOTVTOL NOTSUB NOTSHIP ALL",
   corpse              = "DEAD",
   defaultmissiontype  = "Standby",
   explodeAs           = "QUEEN_DEATH",
@@ -80,7 +80,7 @@ unitDef = {
 
     {
       def = "SPORES1",
-      badTargetCategory  = "NOTAIR",
+      badTargetCategory  = "NOTVTOL",
     },
 
 

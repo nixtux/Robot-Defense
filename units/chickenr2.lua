@@ -14,7 +14,7 @@ unitDef = {
   canMove             = true,
   canPatrol           = true,
   canstop             = "1",
-  category            = "MOBILE WEAPON NOTAIR NOTSUB NOTSHIP ALL",
+  category            = "MOBILE WEAPON NOTVTOL NOTSUB NOTSHIP ALL",
   defaultmissiontype  = "Standby",
   explodeAs           = "WEAVER_DEATH",
   footprintX          = 3,
@@ -65,7 +65,7 @@ unitDef = {
     {
       def                = "CHASEWEAPON",
       mainDir            = "0 0 1",
-      onlyTargetCategory = "NOTAIR",
+      onlyTargetCategory = "NOTVTOL",
       badTargetCategory  = "VTOL",
     }, 
     
@@ -74,7 +74,7 @@ unitDef = {
       mainDir            = "0 0 1",
       maxAngleDif        = 120,
       badTargetCategory  = "VTOL",
-      onlyTargetCategory = "NOTAIR",
+      onlyTargetCategory = "NOTVTOL",
     },
 
   },

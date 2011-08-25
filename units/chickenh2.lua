@@ -14,7 +14,7 @@ unitDef = {
   canMove             = true,
   canPatrol           = true,
   canstop             = "1",
-  category            = "MOBILE WEAPON NOTAIR NOTSUB NOTSHIP ALL",
+  category            = "MOBILE WEAPON NOTVTOL NOTSUB NOTSHIP ALL",
   corpse              = "DEAD",
   defaultmissiontype  = "Standby",
   explodeAs           = "BIGBUG_DEATH",
@@ -71,7 +71,7 @@ unitDef = {
       def                = "WEAPON",
       mainDir            = "0 0 1",
       maxAngleDif        = 120,
-      onlyTargetCategory = "NOTAIR",
+      onlyTargetCategory = "NOTVTOL",
     },
 
   },
