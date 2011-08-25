@@ -332,7 +332,7 @@ end
 
 local EMP_GOO = {}
 EMP_GOO[WeaponDefNames['chickenr1_goolauncher'].id] = WeaponDefNames['chickenr1_goolauncher'].damages[1]
---EMP_GOO[WeaponDefNames['weaver_death'].id] = WeaponDefNames['weaver_death'].damages[1]
+EMP_GOO[WeaponDefNames['weaver_death'].id] = WeaponDefNames['weaver_death'].damages[1]
 local LOBBER = UnitDefNames["chickenr1"].id
 local SKIRMISH = { [UnitDefNames["chickens1"].id] = 270, [UnitDefNames["chickens2"].id] = 620 }
 local COWARD = { [UnitDefNames["chickenh1"].id] = 150, [UnitDefNames["chickenr1"].id] = 300 }

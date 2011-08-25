@@ -6,7 +6,7 @@ local options={
 	   desc   = "Sets storage and amount of resources that players will start with",
 	   type   = "section",
 	},
-	  {
+	    {
        key="chicken",
        name="Chicken Defense Options",
        desc="Chicken Spawner Options",
@@ -169,97 +169,7 @@ local options={
        step   = 1,  -- quantization is aligned to the def value
                     -- (step <= 0) means that there is no quantization
 	},
-
-	{
-	key    = "wall_way",
-	name   = "Enable peace time wall",
-	desc   = "Turn Wall on/off",
-	type   = "bool",
-	def    = false,
-	section= "ta_wall",
-	},
 	
-	{
-	key    = "wall_enabled",
-	name   = "Enable peace time wall",
-	desc   = "Turn Wall on/off",
-	type   = "bool",
-	def    = false,
-	section= "ta_wall",
-	},
-
-	{
-	key     = 'wall_time',
-	name    = 'Wall Time',
-	desc    = 'How many minutes will the wall divide the teams?',
-	section = 'ta_wall',
-	type    = 'number',
-	min     = 0,
-	max     = 60,
-	step    = 1,
-	def     = 25,
-	},
-	
-	{
-	key     = 'wall_size',
-	name    = 'Wall Size',
-	desc    = 'How many percent of the map will each team get at start?',
-	section = 'ta_wall',
-	type    = 'number',
-	min     = 10,
-	max     = 45,
-	step    = 1,
-	def     = 45,
-	},
-	
-	{
-	key     = 'wall_los',
-	name    = 'Line of Sight',
-	desc    = 'Can you see past the wall?',
-	section = 'ta_wall',
-	type    = 'list',
-	def     = '0',
-	items   = 
-	{
-		{
-			key  = '0',
-			name = 'normal LOS rules',
-			desc = 'everything works as expected.',
-		},
-		{
-			key  = '1',
-			name = 'Full LOS',
-			desc = 'You can see enemy units, everywhere.',
-		},
---		{
---			key  = '2',
---			name = 'Blindness',
---			desc = 'You can not see enemy units at all.',
---		},
-	},
-	},
-	
-	{
-	key     = 'wall_weapons',
-	name    = 'Cease-Fire',
-	desc    = 'Are weapons blocked as long as the wall remains?',
-	section = 'ta_wall',
-	type    = 'list',
-	def     = '2',
-	items   = 
-	{
-		{
-			key  = '1',
-			name = 'Yes',
-			desc = 'No unit can shoot until the timer is up.',
-		},
-		{
-			key  = '2',
-			name = 'No',
-			desc = 'Units can shot as normal.',
-		},
-	},
-	},
 	{
 		key="mo_chickenstart",
 		name="Burrow Placement",
@@ -429,5 +339,87 @@ local options={
 		step   = 1,
 		section= "cust",
 	},		
+
+	{
+	key    = "wall_enabled",
+	name   = "Enable peace time wall",
+	desc   = "Turn Wall on/off",
+	type   = "bool",
+	def    = false,
+	section= "ta_wall",
+	},
+
+	{
+	key     = 'wall_time',
+	name    = 'Wall Time',
+	desc    = 'How many minutes will the wall divide the teams?',
+	section = 'ta_wall',
+	type    = 'number',
+	min     = 0,
+	max     = 60,
+	step    = 1,
+	def     = 25,
+	},
+	
+	{
+	key     = 'wall_size',
+	name    = 'Wall Size',
+	desc    = 'How many percent of the map will each team get at start?',
+	section = 'ta_wall',
+	type    = 'number',
+	min     = 10,
+	max     = 45,
+	step    = 1,
+	def     = 45,
+	},
+	
+	{
+	key     = 'wall_los',
+	name    = 'Line of Sight',
+	desc    = 'Can you see past the wall?',
+	section = 'ta_wall',
+	type    = 'list',
+	def     = '0',
+	items   = 
+	{
+		{
+			key  = '0',
+			name = 'normal LOS rules',
+			desc = 'everything works as expected.',
+		},
+		{
+			key  = '1',
+			name = 'Full LOS',
+			desc = 'You can see enemy units, everywhere.',
+		},
+--		{
+--			key  = '2',
+--			name = 'Blindness',
+--			desc = 'You can not see enemy units at all.',
+--		},
+	},
+	},
+	
+	{
+	key     = 'wall_weapons',
+	name    = 'Cease-Fire',
+	desc    = 'Are weapons blocked as long as the wall remains?',
+	section = 'ta_wall',
+	type    = 'list',
+	def     = '2',
+	items   = 
+	{
+		{
+			key  = '1',
+			name = 'Yes',
+			desc = 'No unit can shoot until the timer is up.',
+		},
+		{
+			key  = '2',
+			name = 'No',
+			desc = 'Units can shot as normal.',
+		},
+	},
+	},
 }
 return options
