@@ -50,6 +50,10 @@ end
 --------------------------------------------------------------------------------
 --------------------------------------------------------------------------------
 
+local cenabled = tonumber(Spring.GetModOptions().mo_norobot) or 0
+
+if (cenabled == 0) then 
+   
 local chickenTypes = {
   armflea       =  true,
   armsam        =  true,
@@ -232,8 +236,98 @@ addWave(9,{"2 corkrog", "2 arm_furie", "20 clb"})
 addWave(9,{"3 corkarg1", "3 corgala"})
 
 
---[[
-local chickenTypes = {
+
+difficulties = {
+  ['Chicken: Very Easy'] = {
+    chickenSpawnRate = 100, 
+    burrowSpawnRate  = 120,
+    queenSpawnMult   = 0,
+    angerBonus       = 20,
+    expStep 		 = 0,
+    lobberEMPTime    = 0,
+    chickenTypes     = Copy(chickenTypes),
+    defenders        = Copy(defenders),
+    chickensPerPlayer = 5,
+    spawnChance      = 0.25,
+    damageMod		 = 0.6,
+  },
+  ['Chicken: Easy'] = {
+    chickenSpawnRate = 100, 
+    burrowSpawnRate  = 120,
+    queenSpawnMult   = 0,
+    angerBonus       = 20,
+    expStep 		 = 0.09375,
+    lobberEMPTime    = 2.5,
+    chickenTypes     = Copy(chickenTypes),
+    defenders        = Copy(defenders),
+    chickensPerPlayer = 7,
+    spawnChance      = 0.33,
+    damageMod		 = 0.75,
+  },
+
+  ['Chicken: Normal'] = {
+    chickenSpawnRate = 80,
+    burrowSpawnRate  = 105,
+    queenSpawnMult   = 1,
+    angerBonus       = 25,
+    expStep 		 = 0.125,
+    lobberEMPTime    = 4,
+    chickenTypes     = Copy(chickenTypes),
+    defenders        = Copy(defenders),
+    chickensPerPlayer = 9,
+    spawnChance      = 0.4,
+    damageMod        = 1,
+  },
+
+  ['Chicken: Hard'] = {
+    chickenSpawnRate = 70,
+    burrowSpawnRate  = 60,
+    queenSpawnMult   = 1,
+    angerBonus       = 30,
+    expStep 		 = 0.25,
+    lobberEMPTime    = 5,
+    chickenTypes     = Copy(chickenTypes),
+    defenders        = Copy(defenders),
+    chickensPerPlayer = 14,
+    spawnChance      = 0.5,
+    damageMod        = 1.1,
+  },
+
+
+  ['Chicken: Very Hard'] = {
+    chickenSpawnRate = 45,
+    burrowSpawnRate  = 40,
+    queenSpawnMult   = 3,
+    angerBonus       = 30,
+    expStep 		 = 0.4,
+    lobberEMPTime    = 7.5,
+    chickenTypes     = Copy(chickenTypes),
+    defenders        = Copy(defenders),
+    chickensPerPlayer = 18,
+    spawnChance      = 0.6,
+    damageMod        = 1.25,
+  },
+
+  ['Chicken: Custom'] = {
+    chickenSpawnRate = tonumber(Spring.GetModOptions().mo_custom_chickenspawn),
+    burrowSpawnRate  = tonumber(Spring.GetModOptions().mo_custom_burrowspawn),
+    queenSpawnMult   = tonumber(Spring.GetModOptions().mo_custom_queenspawnmult),
+    angerBonus       = tonumber(Spring.GetModOptions().mo_custom_angerbonus),
+    expStep 		 = (tonumber(Spring.GetModOptions().mo_custom_expstep) or 0.6) * -1,
+    lobberEMPTime    = tonumber(Spring.GetModOptions().mo_custom_lobberemp),
+    chickenTypes     = Copy(chickenTypes),
+    defenders        = Copy(defenders),
+    chickensPerPlayer = tonumber(Spring.GetModOptions().mo_custom_minchicken),
+    spawnChance      = (tonumber(Spring.GetModOptions().mo_custom_spawnchance) or 50) / 100,
+    damageMod        = (tonumber(Spring.GetModOptions().mo_custom_damagemod) or 100) / 100,
+  },
+}
+
+defaultDifficulty = 'Chicken: Custom'
+
+    else
+      
+      local chickenTypes = {
   chicken1      =  true,
   chicken1b      =  true,
   chicken1c     =  true,
@@ -366,7 +460,8 @@ addWave(9,{"2 chickenh2", "3 chickenh1", "2 chicken_dodo1", "2 chickena2"})
 addWave(9,{"1 chickenh2", "3 chickenh1", "2 chicken_dodo1", "3 chickens2"})
 addWave(9,{"2 chickenh2", "3 chickenh1", "2 chicken_dodo1", "2 chickenr1"})
 addWave(9,{"1 chickenh2", "12 chicken2", "2 chickenh1"})
---]]
+
+
 difficulties = {
   ['Chicken: Very Easy'] = {
     chickenSpawnRate = 100, 
@@ -454,6 +549,8 @@ difficulties = {
 }
 
 defaultDifficulty = 'Chicken: Custom'
+    end
+    
+--------------------------------------------------------------------------------
+--------------------------------------------------------------------------------
 
---------------------------------------------------------------------------------
---------------------------------------------------------------------------------
