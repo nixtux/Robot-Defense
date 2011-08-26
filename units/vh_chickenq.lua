@@ -15,7 +15,7 @@ unitDef = {
   canPatrol           = true,
   canstop             = "1",
   cantBeTransported   = true,
-  category            = "MOBILE WEAPON NOTVTOL NOTSUB NOTSHIP ALL",
+  category            = "ALL HUGE MOBILE NOTDEFENSE NOTHOVERNOTVTOL NOTSUB NOTSUBNOTSHIP NOTVTOL",
   corpse              = "DEAD",
   defaultmissiontype  = "Standby",
   explodeAs           = "QUEEN_DEATH",
@@ -85,7 +85,7 @@ unitDef = {
 
     {
       def = "SPORES2",
-      badTargetCategory  = "WEAPON",
+      badTargetCategory  = "ALL",
     },
 
 
