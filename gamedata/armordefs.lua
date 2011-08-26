@@ -317,7 +317,7 @@ tinychicken =
 
   chicken =
  {
-  	ve_chickenq=99,
+	ve_chickenq=99,
 	e_chickenq=99,
 	n_chickenq=99,
 	h_chickenq=99,

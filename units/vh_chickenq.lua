@@ -117,14 +117,10 @@ unitDef = {
 
       damage                  = {
         default = 1000,
-        VTRANS = 9999,
-        VTOL = 9999,
-        L1FIGHTERS = 9999,
-        L2FIGHTERS = 9999,
-        L1BOMBERS = 9999,
-        L2BOMBERS = 9999,
-        GUNSHIPS = 2800,
-        HGUNSHIPS = 2800,
+        UNCLASSED_AIR = 9999,
+        FIGHTERS = 9999,
+        BOMBERS = 9999,
+        FLAK_RESISTANT = 2800,
         CHICKEN = 400,
       },
 
@@ -170,11 +166,9 @@ unitDef = {
 
       damage                  = {
         default = 2000,
-		L1FIGHTERS = 9999,
-		L2FIGHTERS = 9999,
-		L1BOMBERS = 9999,
-		L2BOMBERS = 9999,
-		GUNSHIPS = 9999,
+		FIGHTERS = 9999,
+		BOMBERS = 9999,
+		FLAK_RESISTANT = 9999,
 		CHICKEN = 0.001,
 		TINYCHICKEN = 0.001,
       },
@@ -213,11 +207,9 @@ unitDef = {
 
       damage                  = {
         default = 285,
-		L1FIGHTERS = 425,
-		L2FIGHTERS = 485,
-		L1BOMBERS = 425,
-		L2BOMBERS = 485,
-      },
+		FIGHTERS = 425,
+		BOMBERS = 425,
+	     },
 
       dance                   = 20,
       explosionGenerator      = "custom:QUEENSPIKES",
@@ -271,11 +263,9 @@ unitDef = {
 
       damage                  = {
         default = 285,
-		L1FIGHTERS = 425,
-		L2FIGHTERS = 485,
-		L1BOMBERS = 425,
-		L2BOMBERS = 485,
-      },
+		FIGHTERS = 425,
+		BOMBERS = 425,
+	      },
 
       dance                   = 20,
       explosionGenerator      = "custom:QUEENSPIKES",
@@ -329,11 +319,9 @@ unitDef = {
 
       damage                  = {
         default = 285,
-		L1FIGHTERS = 425,
-		L2FIGHTERS = 485,
-		L1BOMBERS = 425,
-		L2BOMBERS = 485,
-      },
+		FIGHTERS = 425,
+		BOMBERS = 425,
+	},
 
       dance                   = 20,
       explosionGenerator      = "custom:QUEENSPIKES",

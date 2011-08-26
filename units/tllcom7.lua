@@ -218,7 +218,7 @@ local weaponDefs = {
 		damage = {
 			commanders = 450,
 			default = 999999,
-		},
+			},
 	},
 	TLLCOM_LIGHTNING5 = {
 		areaOfEffect = 12,

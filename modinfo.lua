@@ -2,7 +2,7 @@ return {
   name='Robot Defense (Tech Annihilation)',
   description='The New Generation Of War',
   shortname='TA',
-  version='v2.13-rc2',
+  version='v2.13-rc3',
   mutator='',
   game='',
   shortGame='',

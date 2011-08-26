@@ -118,14 +118,9 @@ unitDef = {
 
       damage                  = {
         default = 900,
-        VTRANS = 9999,
-        VTOL = 9999,
-        L1FIGHTERS = 9999,
-        L2FIGHTERS = 9999,
-        L1BOMBERS = 9999,
-        L2BOMBERS = 9999,
-        GUNSHIPS = 2800,
-        HGUNSHIPS = 2800,
+        FIGHTERS = 9999,
+	BOMBERS = 9999,
+	FLAK_RESISTANT = 2800,
         CHICKEN = 400,
       },
 
@@ -170,13 +165,11 @@ unitDef = {
 
       damage                  = {
         default = 1750,
-		L1FIGHTERS = 9999,
-		L2FIGHTERS = 9999,
-		L1BOMBERS = 9999,
-		L2BOMBERS = 9999,
-		GUNSHIPS = 2250,
+		FIGHTERS = 9999,
+		BOMBERS = 9999,
+		FLAK_RESISTANT = 2250,
 		CHICKEN = 0.001,
-        TINYCHICKEN = 0.001,
+		TINYCHICKEN = 0.001,
       },
 
       endsmoke                = "0",

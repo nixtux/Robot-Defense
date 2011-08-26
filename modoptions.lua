@@ -240,6 +240,15 @@ local options={
 		def    = true,
 		section= "chicken",
     },
+    
+    {
+	key    = "mo_norobot",
+	name   = "Replace robots with chickens",
+	desc   = "Turn Robot on/off",
+	type   = "bool",
+	def    = false,
+	section= "cust",
+	},
 	{
 		key    = "mo_custom_burrowspawn",
 		name   = "Burrow Spawn Rate (Seconds)",

@@ -232,7 +232,7 @@ end
 --
 
 do -- load config file
-  local CONFIG_FILE = "LuaRules/Configs/spawn_defs.lua"
+  local CONFIG_FILE = "LuaRules/Configs/spawn_defs_r.lua"
   local VFSMODE = VFS.RAW_FIRST
   local s = assert(VFS.LoadFile(CONFIG_FILE, VFSMODE))
   local chunk = assert(loadstring(s, file))
