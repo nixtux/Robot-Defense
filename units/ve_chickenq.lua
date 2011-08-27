@@ -91,7 +91,7 @@ unitDef = {
 
     {
       def = "SPORES3",
-      badTargetCategory  = "NOWEAPON",
+      badTargetCategory  = "NOTWEAPON",
     },
 
 
