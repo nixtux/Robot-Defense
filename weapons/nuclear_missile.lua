@@ -44,6 +44,7 @@ return {
 		damage = {
 			commanders = 2500,
 			default = 9500,
+			chicken = 0,
 		},
 	},
 }

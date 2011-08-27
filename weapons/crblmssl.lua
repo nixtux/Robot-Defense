@@ -44,6 +44,7 @@ return {
 		damage = {
 			commanders = 2500,
 			default = 11500,
+			checken = 0,
 		},
 	},
 }

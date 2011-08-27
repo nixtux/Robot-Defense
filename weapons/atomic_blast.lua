@@ -17,6 +17,7 @@ return {
 		weaponvelocity = 250,
 		damage = {
 			default = 2400,
+			chicken = 0,
 		},
 	},
 }
