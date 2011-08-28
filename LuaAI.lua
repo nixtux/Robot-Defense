@@ -29,6 +29,10 @@ return {
     desc = 'Hardcore Games'
   },
   {
+    name = 'Chicken: Insane',
+    desc = 'Insane Games'
+  },
+  {
     name = 'Chicken: Custom',
     desc = 'Settings in ModOptions'
   },

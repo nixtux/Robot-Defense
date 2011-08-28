@@ -1,0 +1,11 @@
+--- units/armsh175.lua
++++ units/armsh175.lua
+@@ -21,7 +21,7 @@
+ 	canMove = true,
+ 	canPatrol = true,
+ 	canstop = 1,
+-	category = [[ALL MOBILE NOTDEFENSE NOTSUB NOTSUBNOTSHIP NOTWEAPON VTOL SMALLVTOL]],
++	category = [[ALL MOBILE NOTDEFENSE NOTSUB NOTSUBNOTSHIP NOTWEAPON SMALLVTOL VTOL]],
+ 	collide = false,
+ 	copyright = [[Copyright 1997 Humongous Entertainment. All rights reserved.]],
+ 	cruiseAlt = 100,

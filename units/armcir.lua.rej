@@ -1,0 +1,11 @@
+--- units/armcir.lua
++++ units/armcir.lua
+@@ -82,7 +82,7 @@
+ 	weaponDefs = nil,
+ 	weapons = {
+ 		[1] = {
+-			badTargetCategory = [[TINYVTOL SMALLVTOL]],
++			badTargetCategory = [[SMALLVTOL TINYVTOL]],
+ 			def = [[ARM_CIR]],
+ 			onlyTargetCategory = [[VTOL]],
+ 		},

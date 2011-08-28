@@ -26,7 +26,7 @@ local unitDef = {
 	canPatrol = true,
 	canreclamate = 1,
 	canstop = 1,
-	category = [[ALL COMMANDER CONSTR LARGE MOBILE NOTDEFENSE NOTHOVERNOTVTOL NOTSUB NOTSUBNOTSHIP NOTVTOL]],
+	category = [[ALL COMMANDER CONSTR LARGE MOBILE NOTDEFENSE NOTHOVERNOTVTOL NOTSUB NOTSUBNOTSHIP NOTVTOL WEAPON]],
 	cloakCost = 120,
 	cloakCostMoving = 1100,
 	collisionvolumeoffsets = [[0 -12 -3]],
@@ -184,7 +184,6 @@ local weaponDefs = {
 		damage = {
 			commanders = 450,
 			default = 999999,
-			chicken = 12000,
 		},
 	},
 	TLLCOM_LIGHTNING = {

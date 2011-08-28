@@ -131,6 +131,7 @@ local NORMAL = "Chicken: Normal"
 local HARD = "Chicken: Hard"
 local VERYHARD = "Chicken: Very Hard"
 local CUSTOM = "Chicken: Custom"
+local INSANE = "Chicken: Insane"
 local SURVIVAL = "Chicken: Survival"
 
 local modes = {
@@ -140,7 +141,8 @@ local modes = {
     [4] = HARD,
     [5] = VERYHARD,
     [6] = CUSTOM,
-    [7] = SURVIVAL,
+    [7] = INSANE,
+    [8] = SURVIVAL,
 }
 
 for i, v in ipairs(modes) do -- make it bi-directional

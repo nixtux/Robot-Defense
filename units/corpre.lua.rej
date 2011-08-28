@@ -1,0 +1,11 @@
+--- units/corpre.lua
++++ units/corpre.lua
+@@ -84,7 +84,7 @@
+ 	weaponDefs = nil,
+ 	weapons = {
+ 		[1] = {
+-			badTargetCategory = [[TINYVTOL SMALLVTOL MEDIUMVTOL]],
++			badTargetCategory = [[MEDIUMVTOL SMALLVTOL TINYVTOL]],
+ 			def = [[CapitalShipMinigun]],
+ 			onlyTargetCategory = [[VTOL SUPERSHIP]],
+ 		},

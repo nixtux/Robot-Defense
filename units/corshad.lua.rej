@@ -1,0 +1,11 @@
+--- units/corshad.lua
++++ units/corshad.lua
+@@ -22,7 +22,7 @@
+ 	canMove = true,
+ 	canPatrol = true,
+ 	canstop = 1,
+-	category = [[ALL MOBILE NOTDEFENSE NOTSUB NOTSUBNOTSHIP VTOL MEDIUMVTOL]],
++	category = [[ALL MEDIUMVTOL MOBILE NOTDEFENSE NOTSUB NOTSUBNOTSHIP VTOL WEAPON]],
+ 	collide = false,
+ 	cruiseAlt = 165,
+ 	defaultmissiontype = [[VTOL_standby]],

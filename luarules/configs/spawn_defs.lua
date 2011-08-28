@@ -308,6 +308,20 @@ difficulties = {
     damageMod        = 1.25,
   },
 
+   ['Chicken: Insane'] = {
+    chickenSpawnRate = 30,
+    burrowSpawnRate  = 25,
+    queenSpawnMult   = 4,
+    angerBonus       = 30,
+    expStep 		 = 0.5,
+    lobberEMPTime    = 8.5,
+    chickenTypes     = Copy(chickenTypes),
+    defenders        = Copy(defenders),
+    chickensPerPlayer = 23,
+    spawnChance      = 0.8,
+    damageMod        = 1.25,
+  },
+  
   ['Chicken: Custom'] = {
     chickenSpawnRate = tonumber(Spring.GetModOptions().mo_custom_chickenspawn),
     burrowSpawnRate  = tonumber(Spring.GetModOptions().mo_custom_burrowspawn),
@@ -533,6 +547,21 @@ difficulties = {
     damageMod        = 1.25,
   },
 
+  
+  ['Chicken: Insane'] = {
+    chickenSpawnRate = 30,
+    burrowSpawnRate  = 25,
+    queenSpawnMult   = 4,
+    angerBonus       = 30,
+    expStep 		 = 0.5,
+    lobberEMPTime    = 8.5,
+    chickenTypes     = Copy(chickenTypes),
+    defenders        = Copy(defenders),
+    chickensPerPlayer = 23,
+    spawnChance      = 0.8,
+    damageMod        = 1.25,
+  },
+  
   ['Chicken: Custom'] = {
     chickenSpawnRate = tonumber(Spring.GetModOptions().mo_custom_chickenspawn),
     burrowSpawnRate  = tonumber(Spring.GetModOptions().mo_custom_burrowspawn),

@@ -1,0 +1,11 @@
+--- units/armawac.lua
++++ units/armawac.lua
+@@ -21,7 +21,7 @@
+ 	canMove = true,
+ 	canPatrol = true,
+ 	canstop = 1,
+-	category = [[ALL MOBILE NOTDEFENSE NOTSUB NOTSUBNOTSHIP NOTWEAPON VTOL MEDIUMVTOL]],
++	category = [[ALL MEDIUMVTOL MOBILE NOTDEFENSE NOTSUB NOTSUBNOTSHIP NOTWEAPON VTOL]],
+ 	collide = false,
+ 	cruiseAlt = 160,
+ 	defaultmissiontype = [[VTOL_standby]],

@@ -1,0 +1,11 @@
+--- units/abuilderlvl2.lua
++++ units/abuilderlvl2.lua
+@@ -21,7 +21,7 @@
+ 	canPatrol = true,
+ 	canReclaim = true,
+ 	canstop = 1,
+-	category = [[ALL CONSTR MOBILE NOTDEFENSE NOTSUB NOTSUBNOTSHIP NOTWEAPON VTOL MEDIUMVTOL]],
++	category = [[ALL CONSTR MEDIUMVTOL MOBILE NOTDEFENSE NOTSUB NOTSUBNOTSHIP NOTWEAPON VTOL]],
+ 	collide = false,
+ 	corpse = [[dead]],
+ 	cruiseAlt = 130,

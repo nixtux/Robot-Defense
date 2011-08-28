@@ -197,6 +197,8 @@ local options={
 			{key="n_chickenq", name="Normal", desc="A Good Challenge"},
 			{key="h_chickenq", name="Hard", desc="Serious Business"},
 			{key="vh_chickenq", name="Very Hard", desc="Impossible"},
+			{key="fh_chickenq", name="Fricking Hard", desc="Insane"},
+
 		}
 	},
 	{
