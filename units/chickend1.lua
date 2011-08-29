@@ -37,6 +37,7 @@ local unitDef = {
 	maxSlope = 255,
 	maxVelocity = 0,
 	maxWaterDepth = 0,
+	metalStorage = 10000,
 	name = [[Chicken Tube]],
 	noAutoFire = false,
 	noChaseCategory = [[MOBILE]],
