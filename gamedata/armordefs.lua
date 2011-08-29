@@ -329,6 +329,7 @@ tinychicken =
 	n_chickenq=99,
 	h_chickenq=99,
 	vh_chickenq=99,
+	fh_chickenq=99,
 	chicken1=99,
 	chicken2=99,
         chicken_dodo2=99,
