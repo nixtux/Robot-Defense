@@ -331,7 +331,7 @@ CHICKENHKBOT4 =
 	footprintz=4;
 	maxwaterdepth=22;
 	maxslope=36;
-	crushstrength=11000;
+	crushstrength=44000;
 }
 }
 
