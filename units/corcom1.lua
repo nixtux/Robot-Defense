@@ -185,7 +185,7 @@ local weaponDefs = {
 		damage = {
 			commanders = 450,
 			default = 999999,
-			chicken = 12000,
+			chicken = 1200,
 		},
 	},
 	ARMCOMLASER = {
