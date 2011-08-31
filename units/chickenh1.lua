@@ -21,7 +21,6 @@ local unitDef = {
 	canGuard = 1,
 	canMove = 1,
 	canPatrol = 1,
-	canreclamate = 1,
 	canRepair = 1,
 	canstop = 1,
 	category = [[MOBILE WEAPON NOTVTOL NOTSUB NOTSHIP ALL]],
