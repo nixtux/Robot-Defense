@@ -34,6 +34,8 @@ bombers = {
 	tllseab = 99,
 	corseap = 99,
 	armseap = 99,
+	chickenw1 = 99,
+	chickenf1 = 99,
 },
 flak_resistant = {
 	apache = 99,
