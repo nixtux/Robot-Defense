@@ -48,6 +48,7 @@ local function addWave(wave, unitList)
 end
 
 --------------------------------------------------------------------------------
+--Robot Defense Config
 --------------------------------------------------------------------------------
 
 local cenabled = tonumber(Spring.GetModOptions().mo_norobot) or 0
@@ -341,6 +342,9 @@ difficulties = {
 defaultDifficulty = 'Chicken: Custom'
 
     else
+--------------------------------------------------------------------------------
+--Chicken Defense Config
+--------------------------------------------------------------------------------
       
       local chickenTypes = {
   chicken1      =  true,
